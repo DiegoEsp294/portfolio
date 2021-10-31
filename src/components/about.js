@@ -22,7 +22,7 @@ const About = () => {
             </p>
           </div>
           <div className="image-wrapper">
-            <img src={data.aboutImage} alt="about"></img>
+            <img src="./img/photo.jpg" width="50%" height="90%" alt="about"/>
           </div>
         </div>
       </div>

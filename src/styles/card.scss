@@ -18,13 +18,22 @@
     transform: translate(0, 20px);
     cursor: pointer;
     h1 {
-      font-size: 14px;
+      font-size: 19px;
       color: white;
+      text-shadow: 1px 1px 0 rgb(61, 60, 60);
     }
     p {
-      font-size: 10px;
+      font-size: 15px;
       color: white;
       margin-bottom: 20px;
+      text-shadow: 1px 1px 0 rgb(61, 60, 60);
+    }
+
+    h2 {
+      font-size: 1rem;
+      line-height: 10px;
+      color:rgb(77, 201, 77);
+      text-shadow: 1px 1px 0 rgb(61, 60, 60);
     }
 
     .btn {

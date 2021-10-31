@@ -9,9 +9,10 @@
     font-size: 3rem;
     line-height: 20px;
     color:rgb(77, 201, 77);
-    text-shadow: 1px 1px 0 rgb(231, 224, 224)
+    text-shadow: 1px 1px 0 rgb(7, 7, 7)
   }
   h2 {
+    color:rgb(37, 31, 31);
     font-size: 1.5rem;
     overflow: hidden;
     @include media(">=phone", "<lgphone") {
