@@ -8,21 +8,15 @@ const About = () => {
       <div className="container">
         <div className="about-section">
           <div className="content">
-            <Fade bottom cascade>
-              <h1>About Me</h1>
-            </Fade>
-            <p>
-              {data.aboutParaOne}
-              <br></br>
-              <br></br>
-              {data.aboutParaTwo}
-              <br></br>
-              <br></br>
-              {data.aboutParaThree}
+            <br></br>
+            <br></br>
+            <h4>{data.aboutParaOne}</h4>
+            <p style={{fontSize: '18px'}}>
+               {data.aboutParaTwo}
             </p>
           </div>
           <div className="image-wrapper">
-            <img src="./img/photo.jpg" width="50%" height="90%" alt="about"/>
+            <img src="./img/photo.png" width="80%" height="97%" alt="about"/>
           </div>
         </div>
       </div>
