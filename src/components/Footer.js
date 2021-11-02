@@ -10,7 +10,7 @@ const Footer = () => {
           <Fade bottom cascade>
             <h1>Contact</h1>
           </Fade>
-          <a className="email-link" href={`mailto:${data.contactEmail}`} style={{marginTop: '20px'}}>
+          <a className="email-link" style={{marginTop: '20px'}}>
             {data.contactEmail}
           </a>
           <div className="social-icons">

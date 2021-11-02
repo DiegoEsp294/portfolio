@@ -101,7 +101,6 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
   social: [
     { img: "./img/github.png", 
       url: "https://github.com/DiegoEsp294" 
